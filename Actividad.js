@@ -1,3 +1,10 @@
-let nombre = prompt("¿Cómo te llamas?");
-    alert("Hola, " + nombre + ". Bienvenido a JavaScript.");
-    console.log(`Usuario: ${nombre}`);
+function sumar(a, b) {
+  return a + b;
+}
+
+let num1 = parseFloat(prompt("Ingresa el primer número"));
+let num2 = parseFloat(prompt("Ingresa el segundo número"));
+let resultado = sumar(num1, num2);
+
+alert(`La suma es: ${resultado}`);
+console.log(`Suma: ${resultado}`);
